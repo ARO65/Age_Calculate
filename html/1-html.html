@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+
+
+        }
+
+        .btn {
+            margin-left: 45%;
+            margin-top: 20px;
+        }
+
+        p {
+            margin-top: 20px;
+            margin-left: 50%;
+        }
+    </style>
+    </head>
+
+    <body>
+        <div
+            class="container d-flex justify-content-center align-content-center m-auto mt-5 w-25 border border-1 bg-warning p-4 rounded">
+
+            <label for="brihtYear"></label>
+            <input type="number" name="brihtYear" id="brihtYear" placeholder="brihtYear">
+
+
+
+            <label for="brihtMonhts"></label>
+            <input type="number" name="brihtMonhts" id="brihtMonhts" placeholder="brihtMonhts">
+
+
+
+            <label for="brihtDay"></label>
+            <input type="number" name="brihtDay" id="brihtDay" placeholder="brihtDay">
+
+
+
+
+        </div>
+        <div>
+
+            <button class="btn btn-danger" onclick="ageCalculate()" type="button">ageCalculate</button>
+        </div>
+        <div class="result">
+            <p>....age</p>
+            <p>....monhts</p>
+            <p>....days</p>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+        <script src="../js/script.js"></script>
+    </body>
+
+</html>
